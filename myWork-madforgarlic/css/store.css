@@ -1,0 +1,51 @@
+.list:nth-child(2):after{width: 90%;}
+
+#secA{width: 100%;height: 100vh;overflow: hidden;position: relative;}
+#map{width: 100%;height: 100%;}
+#map iframe{width: 100%;height: 100%;}
+
+#pop{position: absolute; background: white;top: 15%;left: 30px; border-radius: 10px;box-shadow: 3px 3px 7px rgba(0,0,0,0.4);cursor: move}
+
+#mapForm{padding: 20px;}
+
+#formTitle{font-size: 18px; font-weight: 700;letter-spacing: 2px;
+background: black;color: white;padding: 10px 20px}
+
+#serch, #select{width: 300px;border-radius: 30px; border: 1px solid lightgray;display: flex;justify-content: space-between;align-items: center;padding: 15px 20px;
+margin: 10px 0;}
+#searchinput{width: 90%}
+.searchcon:hover{cursor: pointer;opacity: 0.6}
+.formType{border: none;outline: none}
+.selectType{width: 100%}
+
+
+#secB{width: 100%;height: 100vh; background: url('img/storebg.png')no-repeat; background-size: cover; background-position: center;background-attachment: fixed;display: flex;justify-content: center;align-items: center}
+
+#secBbox{width: 85%;height: 80%;box-shadow: 3px 3px 6px rgba(0,0,0,0.4);overflow: hidden;position: relative;}
+
+#imgboxB{width: 400%;display: flex;justify-content: space-between;position: absolute;top: 0;left: 0;transition: 0.5s}
+.imgB{width: 25%;display: block}
+
+#textboxB{z-index: 1; color: white; position: absolute;left: 50px;bottom: 30px;width: 100%}
+#concept{font-size: 14px; letter-spacing: 5px; background: black;display: inline-block;padding: 2px 10px;margin-bottom: 10px}
+#titleBbox{position: relative;font-size: 140px; font-weight: 900;width: 100%;height: 280px;line-height: 130px}
+.titleb{position: absolute;top: 0;left: 0; opacity: 0}
+
+#textBbox{position: relative;height: 100px; font-weight: 300; width: 34%;font-size: 17px}
+.textb{position: absolute;top: 0;left: 0;width: 100%;display: none}
+
+#numberB{position: absolute;top: 30px; right: 30px; color: white; font-weight: 700; font-size: 24px;letter-spacing: 5px}
+
+#arrowbox{position: absolute;bottom: 30px; right: 30px; display: flex;}
+.arrowbox{margin-right: 15px; width: 35px; height: 35px; border-radius: 30px; background: rgba(255,255,255,0.8);display: flex; justify-content: center;align-items: center;box-shadow: 2px 2px 5px rgba(0,0,0,0.5);transition: 0.2s;z-index: 1}
+.arrowbox:hover{cursor: pointer;transform: translate(-1px,-1px)}
+
+
+.ex{opacity : 0;}
+.ex span{ position: relative;top: 10px;left: 10px;opacity: 0;}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.list:nth-child(4):after{width: 90%;}
+
+#mainContain{width: 100%;}
+#mainBgbox{width: 100%;height: 100vh; position: fixed;top: 0; left: 0;z-index: -1}
+#mainBgbox img{width: 100%;height: 100%;display: block}
+
+#mainButtonbox{display: flex; color: white;position: absolute;top: 15%;left: 50%;transform: translateX(-50%);justify-content: center}
+.mainBtn{font-size: 20px; font-weight: 700;margin-right: 40px;cursor: pointer;transition: 0.3s;letter-spacing: 3px;display: inline-block;position: relative;}
+.mainBtn:last-child{margin-right: 0;}
+.mainBtn:hover{opacity: 0.6}
+.now:after{content: "";position: absolute;top: 110%;left: 50%;width: 110%;height: 3px; background: white;transform: translateX(-50%)}
+
+
+.mainBox{width: 60%;margin: auto;margin-top: 12%;padding: 30px;}
+.eventBox{width: 100%;box-shadow: 3px 3px 6px rgba(0,0,0,0.5);margin-bottom: 40px;background: white;height: 300px;display: flex;justify-content: space-between}
+.eventImg{width: 50%;overflow: hidden;position: relative;}
+.eventImg img{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 100%}
+.eventTextbox{width: 50%;padding: 30px;position: relative;}
+.eventTitle{font-size: 30px; font-weight: 700;}
+.eventDate{font-size: 20px; letter-spacing: 5px;margin-top: 10px;}
+.eventMoreBtn{position: absolute;bottom: 30px;left: 30px; background: black; color: white; font-size: 18px;display: inline-block;padding: 5px 20px;letter-spacing: 3px;transition: 0.2s}
+.eventMoreBtn:hover{cursor: pointer;transform: translate(-1px,-1px)}
+

@@ -1,0 +1,53 @@
+.list:nth-child(1):after{width: 90%;}
+
+#mainContain{display: flex; justify-content: space-between;width: 100%;position: relative;}
+#menuBox{width: 35%;height: 100vh; overflow: hidden;position: fixed;left: 0;top: 0;}
+#imgbox{width: 100%;}
+#menuBoxImg{width: 100%; display: block;}
+
+
+#blackImgbox{width: 100%;position: absolute;top: 0;left: 0;height: 100%;background: rgba(0,0,0,0.5)}
+#textBox{position: absolute;top: 55%;left: 50%;transform: translate(-50%,-50%);color: white; font-size: 50px;font-weight: 700;text-align: center;z-index: 1}
+.mainlist{cursor: pointer;transition: 0.2s;position: relative;line-height: 80px;display: inline-block}
+.mainli{opacity: 0.6;transition: 0.2s}
+.mainli:hover{opacity: 1}
+.mainlist:after{content: "";position: absolute;top: 90%;left: 50%;transform: translateX(-50%);width: 0;height: 4px;background: white; transition: 0.3s}
+.mainli:first-child{opacity: 1}
+.mainlist:hover:after{width: 100%}
+
+#menuBox2{width: 65%;height: 90vh; margin-left: auto;display: flex;justify-content: center;padding-top: 6%}
+#imgbox2{width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: -1}
+#imgbox2 img{width: 100%;display: block;height: 100%}
+
+#back{position: fixed;top: 15%;right: 10%;color: white;font-size: 20px; font-weight: 700;letter-spacing: 3px;cursor: pointer;transition: 0.3s}
+.backcon{margin-right: 5px;}
+#back:hover{transform: translateX(-15px)}
+
+.content{width: 85%;}
+.mainMenu{width: 100%; display: none;flex-wrap: wrap;justify-content: space-around;}
+.chill{width: 18px;margin-right: -10px}
+
+
+#bread{display: flex;}
+.mainmenuBox{width: 40%;position: relative;box-shadow: 3px 3px 7px rgba(0,0,0,0.6);margin-bottom: 40px;background: white}
+.mainImgbox{width: 100%;height: 350px;overflow: hidden;position: relative;}
+.mainImgbox img{width: 110%; display: block;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);transition: 0.3s;cursor: pointer}
+.mainTextbox{width: 100%;padding: 20px;background: white;display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center}
+.mainTitle{font-size: 24px; font-weight: 700;margin-bottom: 5px}
+.mainPrice{font-size: 18px; font-weight: 400;letter-spacing: 2px}
+.mainDescript{width: 100%;font-size: 14px; font-weight: 300}
+.mainImgbox img:hover{transform: translate(-50%,-50%) scale(1.1)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+.list:nth-child(1):after{width: 90%;}
+
+.menuBox{width: 100%;display: flex; flex-wrap: wrap;justify-content: space-between}
+.menuImgbox{height: 700px; margin-bottom: 30px;overflow: hidden;position: relative;}
+.menuimg{display: block;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); transition: 0.3s}
+.menuBlackbox{width: 100%;height: 100%;position: absolute;top:0;left: 0;background: rgba(0,0,0,0.3);opacity: 0;transition: 0.3s;cursor: pointer}
+.menuTextbox{position: absolute;top: 0;left: 0;font-family: 'Roboto', sans-serif;padding: 20px; color: white;font-style: italic}
+.menuTitle{font-size: 150px;font-weight: 900;margin-bottom: 10px;line-height: 120px}
+.textS{font-size: 120px}
+.textSs{font-size: 90px;line-height: 90px}
+.menuTextLine{width: 60%;height: 7px; background: white;margin-bottom: 10px}
+.menuMoreview{font-size: 24px; font-weight: 500;position: relative;z-index: 1;display: inline-block;transition: 0.3s}
+
+.menuanimation:after{content: "";width: 0;background: white; height: 100%;position: absolute;top: 0;left: 0;z-index: -1;animation: menuani 0.3s both}
+@keyframes menuani{
+    from{width: 0}
+    to{width: 100%}
+}
+
+.menuImgbox:hover .menuimg{transform: translate(-50%,-50%) scale(1.1);cursor: pointer}
+.menuImgbox:hover .menuBlackbox{opacity: 1}
+.menuImgbox:hover .menuMoreview{color: black;font-weight: 700}
+
+#bread{width: 33%}
+#pasta{width: 65%}
+#steak{width: 65%}
+#starter{width:33%}
+#pizza{width:49%}
+#rice{width:49%}
+#dissert{width:40%}
+#beverage{width:28%}
+#wine{width:28%}
