@@ -1,0 +1,10 @@
+$(function(){
+	$('.imgboxB,.imgboxB2').on({
+		mouseenter:function(){
+			$(this).find('.textbox').fadeIn(300)
+		},
+		mouseleave:function(){
+			$('.textbox').fadeOut(300)
+		}
+	})
+})

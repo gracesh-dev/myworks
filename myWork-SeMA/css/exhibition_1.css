@@ -1,0 +1,35 @@
+.list:nth-child(2):before{width: 70%}
+.list:nth-child(2) .sublist:nth-child(1){background: black; color: white}
+
+/* 메인 */
+
+#mainconatainer{
+    width: 100%;
+}
+
+#head{width: 100%; max-width: 1200px;margin: auto;padding-top: 130px;text-align: center;}
+#titleBox{display: flex; justify-content: space-between;width: 100%;align-items: baseline;}
+#mainTitle{font-size: 24px;font-weight: 700;background:black; padding: 0px 15px 2px 15px;
+    color:white;display: inline-block;letter-spacing: 5px;}
+#titlemap{font-weight: 300; font-size: 12px; letter-spacing: 3px;display: inline-block;}
+#boxA{margin-top: 70px;display: flex;justify-content: space-between;flex-wrap: wrap;text-align: left;}
+.boxA{width: 31%;margin-bottom: 40px;position: relative;overflow: hidden;box-shadow: 1px 1px 4px rgba(0,0,0,0.1);}
+.imgbox{width: 100%; overflow: hidden;position: relative;}
+.imgA{height: 100%;display: block;transition: 0.3s;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);opacity: 0.7}
+.imgA:hover{opacity: 1;cursor: pointer;transform: translate(-50%,-50%) scale(1.1);}
+
+.numberbox{position: absolute;background: white; font-size: 20px; font-weight: 700; padding: 7px 15px;top: 0;left: 0}
+
+.textboxA{position: absolute;bottom: 0;left: 0;background: white;padding: 20px 10px; width: 100%;transition: 0.4s}
+.onview{font-size: 13px;font-weight: 100;letter-spacing: 2px;color: gray;}
+.exhib_name{font-size: 22px;font-weight: 400;letter-spacing: 1px;margin: 7px 0;}
+.exhib_date{font-size: 14px;font-weight: 300;letter-spacing: 3px;}
+
+#morebtn{ display: inline-block;padding:10px 30px; font-size: 18px;
+    font-weight:500;border:1px solid black;transition: 0.3s;background: none;
+    border-radius: 30px; outline: none;margin-bottom: 50px;}
+#morebtn:hover{cursor: pointer;background:black;color:white;}
+
+#boxB{margin-top: 20px;display: flex;justify-content: space-between;flex-wrap: wrap;
+    text-align: left;}
+#boxBcontainer{display: none;}

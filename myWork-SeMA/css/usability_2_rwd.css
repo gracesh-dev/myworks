@@ -1,0 +1,136 @@
+@media screen and (max-width:900px) {
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+	/*메인섹션*/
+
+	/*로그인----*/
+
+	#main_loginTitle {
+		margin-top: 50px;
+	}
+
+	#main_loginform {
+		width: 60%;
+		margin: 40px auto
+	}
+
+	.main_logininput {
+		margin-bottom: 30px
+	}
+
+
+	.main_lookbtn {
+		font-size: 16px
+	}
+
+
+	#main_loginbtn {
+		margin: 40px auto 0 auto;
+	}
+
+	.main_sign_logbox {
+		top: 35%;
+	}
+
+	.main_loginsnsbox {
+		margin-top: 30px;
+	}
+
+	/*사인모달*/
+
+
+	#main_signTitle {
+		margin-top: 50px;
+	}
+
+	#main_signform {
+		width: 60%;
+		margin: 40px auto
+	}
+
+	.main_sign {
+		margin-bottom: 30px
+	}
+
+	#main_signbtn {
+			margin: 40px auto 0 auto;
+	}
+}
+
+
+@media screen and (max-width:500px) {
+
+	#head {
+		padding-top: 110px;
+	}
+
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+
+	#mainTitle {
+		font-size: 18px;
+	}
+
+	#sectioncontain {
+		width: 90%;
+		margin: auto
+	}
+
+	/*메인섹션*/
+
+#main_infoText{font-size: 18px;padding: 3px 30px}
+	/*로그인----*/
+	
+
+	#main_loginTitle {
+		margin-top:20px;
+	}
+
+	#main_loginform {
+		width: 80%;
+		margin: 30px auto
+	}
+
+	.main_logininput {
+		margin-bottom: 20px
+	}
+
+
+
+	#main_loginbtn {
+		margin: 20px auto 0 auto;
+	}
+
+	.main_sign_logbox {
+		top: 32%;
+		font-size: 12px
+	}
+	.main_gologin{padding: 5px 5px 5px 10px;}
+.main_gosign{padding: 5px 5px 5px 5px;}
+
+	/*사인모달*/
+
+
+	#main_signTitle {
+		margin-top: 20px;
+	}
+
+	#main_signform {
+		width: 80%;
+		margin: 30px auto
+	}
+
+	.main_sign {
+		margin-bottom: 10px
+	}
+
+	#main_signbtn {
+			margin: 20px auto 0 auto;
+	}
+}

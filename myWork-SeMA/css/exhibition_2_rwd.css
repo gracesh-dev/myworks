@@ -1,0 +1,83 @@
+@media screen and (max-width:900px) {
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+	/* 캘린더 */
+	#calendar {
+		margin-bottom: 50px
+	}
+
+	#cal_wrapper {
+		height: 65vh;
+	}
+
+	/*캘린더-달*/
+	#cal_month {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#todayis {
+		margin-bottom: 30px
+	}
+
+	#arrowbox {
+		top: 40%;
+		font-size: 24px;
+	}
+
+	/*캘린더-일*/
+
+	#cal_date {
+		width: 90%;
+		height: auto;
+		margin: auto
+	}
+}
+
+
+
+@media screen and (max-width:500px) {
+
+	#head {
+		width: 90%;
+		padding-top: 110px;
+	}
+
+	#mainTitle{font-size: 18px;}
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+	/* 캘린더 */
+	#calendar {
+		margin-bottom: 50px
+	}
+
+	#cal_wrapper {
+		height: 90vh;
+	}
+
+	/*캘린더-달*/
+	#cal_month {
+		margin-top: 10px;
+	}
+	#monthAndYear{font-size: 30px;}
+
+	#todayis {
+		font-size: 16px;
+		margin-bottom: 10px
+	}
+
+	/*캘린더-일*/
+	.table thead{font-size: 13px}
+	#calendar-body td{font-size: 12px}
+	#cal_date {
+		width: 90%;
+		height: auto;
+		margin: auto
+	}
+}

@@ -1,0 +1,103 @@
+@media screen and (max-width:900px) {
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+	/*메인섹션*/
+
+	#contentBox {
+		padding: 30px 0;
+	}
+	#thead{letter-spacing: 2px;}
+
+	.number {
+		width: 8%
+	}
+
+	.title {
+		width: 81%;
+	}
+
+	.date {
+		width: 10%
+	}
+
+	.tabletr {
+		line-height: 40px;
+		font-size: 14px;
+	}
+
+	/*넘버박스*/
+	#numberbox {
+		padding: 40px 0;
+	}
+
+	#arrowbox {
+		width: 35%;
+	}
+
+}
+
+
+@media screen and (max-width:500px) {
+
+	#head {
+		padding-top: 110px;
+	}
+
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+
+	#mainTitle {
+		font-size: 18px;
+	}
+
+	#sectioncontain {
+		width: 90%;
+		margin: auto
+	}
+
+	/*메인섹션*/
+
+	#contentBox {
+		padding: 30px 0;
+	}
+	#thead{letter-spacing: 2px;}
+
+	.number {
+		width: 8%
+	}
+
+	.title {
+		width: 81%;
+	}
+
+	.date {
+		width: 10%
+	}
+
+	.tabletr {
+		line-height: 24px;
+		font-size: 14px;
+	}
+	.tabletr td{
+		padding-bottom: 20px;
+	}
+
+	/*넘버박스*/
+	#numberbox {
+		padding: 40px 0;
+	}
+
+	#arrowbox {
+		width: 70%;
+	}
+	
+	.tableTitle:after{bottom: 10px;}
+    .tableTitle:hover:after{;width: 100%;}
+
+}

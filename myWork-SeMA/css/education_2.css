@@ -1,0 +1,39 @@
+.list:nth-child(3):before{width: 70%}
+.list:nth-child(3) .sublist:nth-child(2){background: black; color: white}
+
+#maincontainer{width: 100%;}
+#head{width: 100%; max-width: 1200px;margin: auto;padding-top: 130px;text-align: center;}
+#titleBox{display: flex; justify-content: space-between;width: 100%;align-items: baseline;}
+#mainTitle{font-size: 24px;font-weight: 700;background:black; padding: 0px 15px 2px 15px;
+    color:white;display: inline-block;letter-spacing: 5px;}
+#titlemap{font-weight: 300; font-size: 12px; letter-spacing: 3px;display: inline-block;}
+
+
+ /* 캘린더 */
+ #calendar{width: 100%;margin-top: 20px;margin-bottom: 100px}
+ #cal_title{font-size: 24px; font-weight: 600;}
+ #cal_wrapper{width: 100%;box-shadow: 2px 2px 5px rgba(0,0,0,0.2); height: 60vh;
+    margin-top: 30px;display: flex;flex-wrap: wrap;}
+
+/*캘린더-달*/
+#cal_month{width: 30%;position: relative;display: flex; align-items: center;justify-content: center; border-right: 1px solid lightgray; }
+
+#monthAndYear{font-size: 45px;font-weight: 600;}
+#todayis{font-size: 18px; font-weight: 500;margin-bottom: 50px}
+#arrowbox{width: 90%; position: absolute; top: 45%;left: 50%;transform: translate(-50%,-50%);
+display: flex;justify-content: space-between; padding: 10px; transition: 0.2s; font-size: 20px;}
+.arrow{transition: 0.2s}
+.arrow:hover{cursor: pointer;opacity: 0.6}
+
+
+/*캘린더-일*/
+.table{width: 100%;}
+.table thead{width: 100%; display: flex;justify-content: center}
+.table tr{width: 100%; display: flex;justify-content: space-between; border-bottom: 1px solid lightgray}
+.table th{width: calc(100% / 7);padding: 5px 0}
+
+#cal_date{width: 70%;height: 100%; }
+#calendar-body{width: 100%; height: 100%;padding: 20px}
+#calendar-body tr{font-size: 20px; width: 100%;border-bottom: none;display: flex;flex-wrap: wrap;justify-content: flex-start;border-bottom:1px solid lightgray}
+#calendar-body td{width: calc(100% / 7); padding: 7px 0 0 20px; font-size: 16px; text-align: left;padding-bottom: 40px; }
+#calendar-body tr:last-child{border-bottom: 0px}

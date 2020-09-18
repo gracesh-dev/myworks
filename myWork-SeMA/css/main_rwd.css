@@ -1,0 +1,265 @@
+/*브레이크포인트*/
+@media screen and (max-width:900px){
+    
+/*메인헤더*/
+
+
+
+#main_text1{font-size: 2vw; letter-spacing: 10px;left: 30px;line-height: 30px;top: 14%}
+#title{font-size: 13vw;left: 30px;
+line-height: 14vw;top: 23%;width: 80%}
+#title span{color: black;}
+#imgnumber{font-size: 3vw;}
+
+#textbox2{top: 73%; left: 30px;}
+.box2text{font-size: 3vw;}
+#box2text2{font-size: 2vw;}
+
+
+/*섹션*/
+
+section{width: 90%;height: auto;padding: 80px 0 0 0;}
+
+/*섹션1-----*/
+.secA{width: 100%;height: 50%}
+#secA{padding: 100px 0 0 0}
+
+#seclinebox{width: 90%; }
+    
+   #secAimg{margin-bottom: 50px}
+#secAtitle{font-size: 9.5em;top: 11%;
+line-height: 1.1em;}
+#textA{top: 7%;font-size: 1.8em;}
+#textAbox{top: 50%;font-size: 2.8em;}
+
+
+
+
+/*섹션2-----*/
+
+
+#imgBbox{left: 50%; top: 35%;width: 80%;transform: translateX(-50%)}
+.secB{width: 100%}
+	
+#pinkbg{top: 40%;height: 250px;background: #faeee7;z-index: -1}
+#textBbox{margin-top: 0px;}
+#titleB{font-size: 1.8em;margin-bottom: 20px;top: 0;line-height: 1.8em}
+#titleB span{font-size: 1.7em;}
+#textB{font-size: 1.5em;line-height: 1.5em; top: 77%;}
+
+
+/*섹션3-----*/
+.titlebox{font-size:2em;top: 0%;}
+#secC{width: 90%;}
+.secC{width: 100%;padding-top: 40px;overflow: hidden;position: relative;}
+.textCbox{margin-top: 0px;padding: 0 20px;top: 20%;}
+.textC{line-height: 2.1em; font-size: 1.5em;}
+
+
+/*섹션4-----*/
+#titlebox{font-size:2em;top: 5%;}
+.boxD{width: 100%;}
+#secD{height: auto;}
+#adressbox{width: 100%; display: flex; flex-wrap: wrap;padding: 10px 0;}
+	
+
+
+.museum{width: 100%; height: auto; padding: 20px 0;}
+.museumname{font-size: 1.6em;}
+.museumadress{font-size: 16px;line-height: 20px; width: 100%;margin: 10px 0;}
+.museumbtn1{padding:3px 10px;font-size: 14px;}
+#mapbtn{margin: 10px auto }
+
+
+
+#innermodalD{width: 70%;}
+
+
+/*푸터-----*/
+
+
+#footcontain{width: 90%;}
+
+
+/*맨위로----*/
+#upto{right: 20px;}
+
+/*현재진행중인 전시 모달----*/
+#modalbtn{right: 20px; width: 40px; height: 40px;} 
+
+
+
+#modaltext{padding: 0 50px}
+.modalinnertext{font-size: 40px;line-height: 80px;}
+.modaldate{font-size: 18px; font-weight: 400;}
+
+
+/*현재페이지버튼*/
+
+#main_pagebtn{right: 15px;}
+	
+.modalbtnon:after{width: 150%}
+.modalbtnoff:after{width: 150%}
+
+}
+
+
+
+
+
+
+
+
+
+/*휴대폰 반응형-------*/
+
+
+@media screen and (max-width:500px){
+
+
+
+/*메인헤더*/
+#main_head{width: 100%;height: 100vh;}
+
+#circlebox{position: absolute;top: 92%; left: 50%;}
+#imgbox{width: 100%;height: 100%}
+
+
+#textbox{text-align: center;}
+
+#main_text1{font-size: 1em; letter-spacing: 10px;top: 17%; left: 50%;line-height: 28px;animation: titleText_rwd 0.7s 0.1s both;width: 100%;color: white;display: none}
+#title{font-size: 17vw;top: 20%; left: 50%;
+line-height: 70px;color: white;animation: titleText_rwd 1s 0.6s both;}
+#title span{color: white;}
+#leftsema{top: 50%; right: 30px; width: 15px;}
+#whiteline{height: 30px;}
+#imgnumber{font-size: 0.9em;bottom: 50px; right: 20px;}
+
+#textbox2{position: absolute;top: 60%; left: 30px;}
+.box2text{font-size: 1.2em;background: white; color: black}
+#box2text2{color: white;font-size: 15px}
+
+/*섹션*/
+
+section{width: 90%;margin: auto;overflow: hidden;height: auto;padding: 50px 0 0 0}
+
+.linebox{border-right: none}
+.linebox1{border-left: 0.5px solid black}
+.linebox2{border-right: .5px solid black}
+    
+
+/*섹션1-----*/
+
+#secA{padding: 70px 0 0 0;}
+.secA{width: 100%;}
+
+#secAtitle{font-size: 6em;top: 10%;left: -300px;line-height: 1.2em;font-weight: 800}
+#textA{top: 7%;font-size: 0.9em}
+#textAbox{top: 50%;font-size: 22px;z-index: 1}
+#secAimg{margin-top: 0;height: 100%;width: auto;}
+#imgA:hover{transform: none;opacity: 1}
+#imgA{width: auto;height: 100%;transform: translateX(-10%);}
+
+/*섹션2-----*/
+#secB{padding: 70px 0 0 0;}
+#imgBbox{position: absolute; left: 50%;transform: translateX(-50%);top: 35%;width: 90%}
+#pinkbg{top: 45%; height: 200px;z-index: -1000}
+.secB{width: 100%}
+#textBbox{margin-bottom: 180px}
+#titleB{font-size: 1.1em; margin-bottom: 0; top: 0%}
+#titleB span{font-size: 1.4em;}
+#textB{font-size: 0.9em;line-height: 25px; top: 70%}
+
+
+/*섹션3-----*/
+#secC{width: 90%; flex-wrap: wrap;padding-top: 10px}
+.titlebox{font-size: 24px;top: 5%}
+.textCbox{padding: 20px 0px;}
+.secC{width: 100%;padding-top: 0px;overflow: visible}
+#textCbox{margin-top: 0;}
+.textC{line-height: 33px; font-size: 14px;}
+
+
+/*섹션4-----*/
+ #titlebox{font-size: 24px;top: 2%; }   
+.boxD{width: 100%;margin: 0;}
+#adressbox{margin-top: 10px}
+.museum{padding: 10px 0;height: auto;}
+.museumbox{width: 47%; margin: 0 0 10px 0;}
+.museumname{font-size: 16px;}
+.museumadress{font-size: 10px;line-height: 15px;margin: 0;}
+.museumbtnbox{font-size: 12px;}
+.museumbtn1{padding:3px 7px;font-size: 13px;}
+
+#mapbtn{margin: 0px auto; font-size: 15px}
+
+
+/*모달-주차관련--------*/
+
+#innermodalD{width: 90%; height: auto;top: 50%; left: 50%;transform: translate(-50%,-50%);}
+.tablename{font-size: 22px;}
+.tablelist{font-size: 14px; line-height: 22px;padding: 2px 10px;}
+#subtablelist{font-weight: 200; padding: 0 20px; font-size: 13px}
+
+
+
+/*맨위로----*/
+#upto{position: fixed;bottom: 30px; right: 40px;display: none}
+.up{font-size: 20px; padding: 8px 10px; color: black; border: 1px solid black; border-radius: 30px;transition: 0.3s}
+.up:hover{cursor: pointer; background: black; color: white;}
+
+/*현재진행중인 전시 모달----*/
+#modal{z-index: 1100}
+#modalbtn{right: auto;left: 50%; width: 60px; height: 60px; border-radius: 50px; top: 100%;transform: translate(-50%,-50%);box-shadow: none; z-index: 1200; animation: none;position: fixed;}
+#modalbtn:hover{cursor: pointer;opacity: 1;transform: scale(1.1) translate(-50%,-50%);}
+
+#modaltext{margin-top: 20px; padding: 20px}
+.modalinnertext{font-size: 40px; font-weight: 800; line-height: 45px;letter-spacing: 2px; margin-bottom: 20px;}
+.modaldate{font-size: 16px;display: block;}
+.modalinnertext:hover{transform: scale(1.1);}
+
+
+
+/*맵모달------------*/
+#mapmodal{width: 90%; padding: 40px 10px 10px 10px}
+.mapclose{top: 10px;}
+
+
+/*로그인 모달----*/
+
+
+#loginA{width: 100%;height: 40%;border-right: none;margin-top: -60px}
+#login_blackbox{width: 15px; height: 70%;}
+#logintext_top{font-size: 20px; }
+#loginTitle{top: 50%;}
+#loginTitle p{font-size: 60px;}
+#loginunderbox{width: 50px; height: 8px;margin-top: 10px}
+#loginB{width: 100%;height: auto; padding: 0;position: static;margin-top: -150px}
+#loginform{width: 80%;position: static;transform: translate(0);margin: auto}
+.login{width: 100%; padding: 10px;}
+.logininfo{display: none}
+#loginboxunderbox{display: none}
+
+/*사인모달*/
+
+
+#signA{width: 100%;height: 40%;border-right: none;margin-top: -60px}
+#sign_blackbox{width: 15px; height: 70%;}
+#signtext_top{font-size: 20px; }
+#signTitle{top: 50%;}
+#signTitle p{font-size: 60px;}
+#signunderbox{width: 50px; height: 8px;margin-top: 10px}
+#signB{width: 100%;height: auto; padding: 0;position: static; margin-top: -150px}
+#signform{width: 80%;position: static;transform: translate(0);margin: auto}
+.sign{width: 100%; padding: 10px;}
+.signinfo{display: none}
+#signboxunderbox{display: none}
+    
+    @keyframes titleText_rwd{
+    from{opacity: 0; transform: translate(-50%,-50px)}
+    to{opacity: 1;transform: translate(-50%,0)}
+}
+    
+    #main_pagebtn{display: none}
+
+}

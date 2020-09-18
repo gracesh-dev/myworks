@@ -1,0 +1,173 @@
+/*브레이크포인트*/
+@media screen and (max-width:900px) {
+
+	/*메인네비*/
+	#menubar {
+		
+		display: block
+	}
+	
+	#main_loginbox{margin: auto;}
+
+	#mainlogo_rwd {
+		display: block
+	}
+
+	#navi {
+		z-index: 2000;
+		width: 250px;
+		right: -250px;
+		top: 80px;
+		border-bottom: none;
+		padding: 10px
+	}
+
+	.list:hover {
+		background: #a6dcef;
+	}
+
+	#mainlogo {
+		display: none
+	}
+
+	/*메뉴바*/
+
+	#menubox {
+		width: 100%;
+	}
+
+	#menu {
+		margin-left: 0
+	}
+
+	.list {
+		width: 100%;
+		padding: 0;
+		line-height: 50px
+	}
+
+	.sub {
+		position: static;
+		padding: 0;
+		height: auto;
+		width: 100%;
+		background: white;
+	}
+
+	.sublist {
+		color: black
+	}
+
+	.sublist:hover {
+		background: #ddf3f5;
+		color: black
+	}
+
+	.list:before {
+		display: none
+	}
+
+	/*푸터-----*/
+
+	#footerlogo {
+		width: 60%;
+	}
+
+	#footerlogo img {
+		width: 150px;
+		display: block
+	}
+
+	#footerlogo p {
+		font-size: 12px;
+		width: 100%;
+	}
+
+	#snsbox {
+		width: 40%;
+		text-align: right
+	}
+
+	.sns {
+		font-size: 20px;
+		margin-left: 0px
+	}
+
+	#footcontain {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px
+	}
+
+
+	/*문의하기모달*/
+	#contactbox {
+		width: 50%;
+	}
+
+	#contactTitle {
+		font-size: 26px;
+		padding: 15px 20px
+	}
+
+	#contactText {
+		padding: 15px 20px;
+		line-height: 40px;
+		font-size: 24px
+	}
+
+}
+
+
+
+
+
+
+
+
+/*휴대폰 반응형-------*/
+@media screen and (max-width:500px) {
+
+
+
+
+
+	/*개인로그인*/
+	#main_loginbox {
+		justify-content: center;
+		width: 100%;
+		padding: 10px
+	}
+
+	.main_logintext:last-child {
+		margin-right: 0px;
+	}
+
+
+	/*푸터-----*/
+
+
+	.sns {
+		font-size: 16px;
+	}
+	
+/*문의하기모달*/
+	#contactbox {
+		width: 70%;
+	}
+
+	#contactTitle {
+		font-size: 24px;
+		padding: 10px 20px
+	}
+
+	#contactText {
+		padding: 10px 20px;
+		line-height: 30px;
+		font-size: 18px
+	}
+
+
+}

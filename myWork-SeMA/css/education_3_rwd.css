@@ -1,0 +1,123 @@
+@media screen and (max-width:900px) {
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+	/*메인섹션*/
+	#imgcontainer {
+		padding: 70px 0;
+	}
+
+	#mainBox {
+		width: 100%;
+		display: flex;
+		justify-content: space-between
+	}
+
+	.imgboxA {
+		width: 48.5%
+	}
+
+	.imgboxA2 {
+		width: 48.5%
+	}
+
+
+	.textbox {
+		width: calc(100% - 30px);
+		height: calc(100% - 30px);
+	}
+
+	.nowText {
+		letter-spacing: 5px;
+		font-size: 12px;
+	}
+
+	.boxTitle {
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+
+	.date {
+		margin-bottom: 10px;
+		line-height: 18px;
+		font-size: 13px
+	}
+
+	.imgboxB {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+.imgboxB2{margin-bottom: 20px;}
+}
+
+
+@media screen and (max-width:500px) {
+
+	#head {
+		padding-top: 110px;
+	}
+
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+
+	#mainTitle {
+		font-size: 18px;
+	}
+
+	#sectioncontain {
+		width: 90%;
+		margin: auto
+	}
+
+	/*메인섹션*/
+	
+	
+	#imgcontainer {
+		padding: 40px 0;
+	}
+
+	#mainBox {
+		width: 100%;
+		display: flex;
+		justify-content: space-between
+	}
+
+	.imgboxA {
+		width: 100%
+	}
+
+	.imgboxA2 {
+		width: 100%;
+	}
+
+	.textbox {
+		width: calc(100% - 50px);
+		height: calc(100% - 50px);
+	}
+
+	.nowText {
+		font-size: 13px;
+	}
+
+	.boxTitle {
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+
+	.date {
+		margin-bottom: 10px;
+		line-height: 18px;
+		font-size: 12px
+	}
+
+	.imgboxB {
+		width: 100%;
+	}
+
+
+}

@@ -1,0 +1,112 @@
+@media screen and (max-width:900px) {
+
+	.whitelinebox {
+		width: 350px;
+		height: 350px;
+	}
+
+	.whitelinebox2 {
+		width: 230px;
+		height: 230px;
+	}
+
+	.whitelinebox3 {
+		width: 700px;
+		height: 700px;
+	}
+
+
+	.video {
+		width: 250%;
+		height: 150%;
+	}
+
+	.museumsub{
+		margin-bottom: 0px;
+	}
+	
+	.museumTitle {
+		font-size: 9vw;
+		transform: translateX(5px)
+	}
+
+	#museumTitle {
+		font-size: 6.6vw;
+	}
+
+	.viewmorebtn {
+		transition: 0.3s;
+	}
+
+	#snsbox {
+		right: 50px
+	}
+
+	.sns {
+		font-size: 18px;
+	}
+
+
+	#numberbox {
+		left: 50px
+	}
+
+}
+
+
+
+@media screen and (max-width:500px) {
+	
+	.whitelinebox {
+		width: 270px;
+		height: 270px;
+	}
+
+	.whitelinebox2 {
+		width: 180px;
+		height: 180px;
+	}
+
+	.whitelinebox3 {
+		width: 570px;
+		height: 570px;
+	}
+
+.whitelinebox4{width: 75%;}
+.whitelinebox5{width: 80%;}
+	.video {
+		width: 330%;
+		height: 150%;
+	}
+
+	.museumTitle {
+		font-size: 10vw;
+		letter-spacing: 15px;
+	}
+
+	#museumTitle {
+		font-size: 6vw;
+		letter-spacing: 5px;
+
+	}
+
+	.viewmorebtn {
+		transition: 0;
+	}
+
+	#snsbox {
+		right: 10px;
+		top: 90%
+		
+	}
+
+	.sns {
+		font-size: 16px;
+	}
+
+
+	#numberbox {
+		left: 30px
+	}
+
+}

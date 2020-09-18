@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Grace.sh">
+<link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/exhibition_3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/all_rwd.css">
+    <link rel="stylesheet" href="css/exhibition_3_rwd.css">
+    <script src="js/exhibition_3.js"></script>
+    <script src="js/navi.js"></script>
+	<title> 서울시립미술관 </title>
+</head>
+
+	<body onload="slide(0)">
+	
+	<!--   메인 네비-->
+    
+    <i class="fas fa-bars" id="menubar"></i>   
+    <div id="mainlogo_rwd"><img src="image/logo.svg" alt=""></div>
+    
+    
+    <nav id="navi">
+       <div id="navicontainer">
+        <div id="mainlogo">
+				<img src="image/logo.svg" alt="" link="index.html" id="goTomain">
+			</div>
+        
+         <!--        메뉴바-->
+        <div id="menubox">
+            <ul id="menu">
+                <li class="list" link="about">About</li>
+                <li class="list" link="exhibition_1">Exhibition
+                <ul class="sub">
+                    <li class="sublist" link="exhibition_1">현재전시</li>
+                    <li class="sublist" link="exhibition_2">전시일정</li>
+                    <li class="sublist" link="exhibition_3">도슨트 안내</li>
+                </ul></li>
+                <li class="list" link="education_1">Education
+                <ul class="sub">
+                    <li class="sublist" link="education_1">현재교육</li>
+                    <li class="sublist" link="education_2">교육일정</li>
+                    <li class="sublist" link="education_3">문화행사</li>
+                    <li class="sublist" link="education_4">교육자료실</li>
+                    </ul></li>
+                <li class="list" link="semainfo_1">SeMA Info 
+                <ul class="sub">
+                    <li class="sublist" link="semainfo_1">공지사항</li>
+                    <li class="sublist" link="semainfo_2">보도자료</li>
+                    <li class="sublist" link="semainfo_3">SeMA매거진</li>
+                    <li class="sublist" link="semainfo_4">SeMA갤러리</li>
+                    <li class="sublist" link="semainfo_5">자유게시판</li>
+                    </ul></li>
+                <li class="list" link="usability_1">Usability
+                <ul class="sub">
+                    <li class="sublist" link="usability_1">대관안내</li>
+                    <li class="sublist" link="usability_2">접수</li>
+                    </ul></li>
+            </ul>
+           </div>
+           
+           <div id="main_loginbox">
+        <p class="main_logintext" id="gologinmodal"><i class="fas fa-user-circle main_login" ></i>로그인</p>
+        <p class="main_logintext" id="gocontactmodal"><i class="fas fa-question-circle main_login"></i>문의하기</p></div>
+        
+        </div>
+    </nav><div id="whitebg"></div>
+    
+     <!-- 메인 -->
+    <div id="maincontainer">
+
+        <header id="head">
+            <div id="titleBox">
+            <div id="mainTitle">도슨트안내</div>
+            <div id="titlemap">Exhibition >  도슨트안내</div>
+            
+            </div>
+           
+        </header>
+        
+        <div id="sectioncontain">
+        <img src="image/docent.jpg" alt="" class="mainimg">
+        	<div id="dosntBox">
+        		
+        		
+        		
+        		<div class="dosntText">
+        		<div id="whatIsThis">도슨트란?</div>
+        		<div id="dosntLine"></div>
+        		도슨트(docent)는 ‘가르치다’라는 뜻의 라틴어 ‘도케레(docere)’에서 유래한 용어로 박물관, 미술관 등에서 관람객을 대상으로 전시 내용을 설명하는 전문 지식을 갖춘 안내인을 지칭합니다. 도슨트는 박물관, 미술관 등에서 관람객을 안내하며 전시에 대한 설명을 제공하여 전시 및 작품에 대한 이해를 돕는 역할을 합니다. 도슨트가 되기 위해서는 미술에 대한 애정과 일정한 수준의 전문 지식이 있어야 하며 기관에서 제공하는 소정의 교육 과정을 마쳐야 합니다.<br><br>
+
+
+‘안내자’로서의 도슨트는 19세기 중반 영국에서 처음 생긴 뒤, 지금과 같은 자원봉사자로서의 도슨트 제도는 1907년 미국 보스턴 미술관을 중심으로 미국 전역으로 확산되어 우리나라에는 1995년 광주비엔날레가 열리며 도입되었습니다. 서울시립미술관은 2003년부터 도슨트 양성교육프로그램을 운영하고 도슨트를 선발하기 시작하여 현재까지 약 150여명의 도슨트가 자원봉사자로 할동하고 있습니다.<br><br>
+
+서울시립미술관(서소문본관, 북서울미술관)에서는 일반시민을 대상으로 도슨트 양성을 하고 있습니다. 도슨트가 되고자 하는 누구나 신청 가능합니다.<br><br>
+
+		</div>
+        		<div class="dosntsubLine"></div>
+        		<div class="dosntText dosntTextBox">
+					<b class="dosntB">서울시립미술관 서소문본관 도슨트 양성교육</b><br><br>
+
+서울시립미술관은 ‘우리 삶을 바꾸는, 마음을 가진 미술관’을 비전으로 참여와 소통의 미술관을 지향합니다. 도슨트 양성교육 역시 이러한 비전하에 미술관과 전시의 대중화를 도모하는 프로그램으로, 일반 시민(20세 이상)을 대상으로 도슨트 양성교육을 운영하고 교육수료자 중 선발된 도슨트가 미술관 전시해설서비스 활동을 할 수 있도록 지원합니다. 본 강좌를 통해 도슨트로서 소양을 갖추고 문화향유와 봉사의 기회를 갖게 될 것입니다. 교육 수료생에 한하여 도슨트로 활동할 수 있는 자격시험에 응시하실 수 있으며, 최종 합격시 다음년도부터 서울시립미술관의 도슨트로 활동할 수 있습니다.<br>
+       			<div class="moreView modalAbtn">더 알아보기</div>
+        		</div>
+        		<div class="dosntsubLine"></div>
+				<div class="dosntText dosntTextBox">
+					
+					<b class="dosntB">서울시립 북서울미술관 도슨트 양성</b><br><br>
+
+서울시립북서울미술관은 ‘우리 삶을 바꾸는, 마음을 가진 미술관’을 비전으로 참여와 소통의 미술관을 지향합니다.
+
+도슨트 양성교육 역시 이러한 비전하에 미술관과 전시의 대중화를 도모하는 프로그램으로, 일반 시민을 대상으로 도슨트 양성교육을 운영하고 교육수료자 중 선발된 도슨트가 미술관 전시해설서비스 활동을 할 수 있도록 지원합니다.
+
+체계적이고 전문적인 강좌를 통해 도슨트로서 소양을 갖추고 문화향유와 봉사의 기회를 갖게 될 것입니다.<br>
+			<div class="moreView modalBbtn">더 알아보기</div>
+				</div>
+       		
+       		<div class="dosntlastLine"></div>
+       		<div id="appBox">
+       		
+       			<div id="appBox_L">
+       				<div id="appimgBox">
+       					<img src="image/exhibition_3/app1.jpg" alt="" class="appimg">
+       					<img src="image/exhibition_3/app2.jpg" alt="" class="appimg">
+       					<img src="image/exhibition_3/app3.jpg" alt="" class="appimg">
+       					<img src="image/exhibition_3/app4.jpg" alt="" class="appimg">
+       					<img src="image/exhibition_3/app5.jpg" alt="" class="appimg">
+       				</div>
+       				
+       				<div id="appBox_arrow">
+       					<i class="fas fa-angle-left arrow" id="left"
+       					></i>
+       					<i class="fas fa-angle-right arrow" id="right"></i>
+       				</div>
+       			</div>
+       			
+       			<div id="appBox_R">
+       				<div id="appBox_Rcontain">
+       				<div id="appTitle"><i class="fas fa-headphones-alt apptitlecon"></i>SeMA Application</div>
+       				<div id="appText"><b>서울시립미술관 전시도슨팅 앱</b><br> 미술관 도슨트서비스를 이제 모바일 앱으로 만나보세요.</div>
+       			
+       				<div id="appBtnBox">
+       				<div class="appBtn">
+       					<i class="fab fa-google-play appicon"></i>
+       					<div class="downloadbtn" link="https://play.google.com/store/apps/details?id=seoul.museum.art.act&hl=ko">Download<i class="fas fa-arrow-circle-down download"></i></div>
+       				</div>
+       				
+       					<div class="appBtn">
+       					<i class="fab fa-app-store appicon"></i>
+       					<div class="downloadbtn" link="https://apps.apple.com/kr/app/id606772527">Download<i class="fas fa-arrow-circle-down download"></i></div>
+       					</div>
+       				</div>
+       			</div></div>
+       		</div>
+       	
+       	
+        	</div>
+        	
+        
+        	
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <!--        푸터--------->
+        <footer id="foot">
+            <div id="footcontain">
+               <div id="footerlogo"><p>©2018 Seoul Museum of Art All rights reserved</p></div>
+                <div id="snsbox">
+                    <a href="https://www.facebook.com/SeoulMuseumofArt.kr" target="_blank"><i class="fab fa-facebook-f sns"></i></a>
+                    <a href="https://www.instagram.com/seoulmuseumofart/" target="_blank"><i class="fab fa-instagram sns"></i></a>
+                    <a href="https://twitter.com/SeoulSema" target="_blank"><i class="fab fa-twitter sns"></i></a>
+                    <a href="https://www.youtube.com/user/SeoulMuseumofArt" target="_blank"><i class="fab fa-youtube sns"></i></a>
+                </div>
+            </div>
+            
+         </footer>
+    </div>
+    
+    
+<!--    도슨트모달-->
+   
+   <div id="modalA">
+   	<div class="modaltextbox">
+   		<div class="modalTitle">
+   			도슨트 양성교육 및 선발시험 절차 
+   		</div>
+   		<div class="modalText">
+   			<b>1. 도슨트 양성교육 :</b><br>
+
+ - 만 24세 이상 성인 대상으로 컴퓨터 추첨하여 선정하고 미술사, 글쓰기 워크샵, 스피치 강연 등의 양성 교육을 하반기에 운영<br>
+
+
+
+<b>2. 전시 및 작품에 대한 글쓰기 과제 : 하반기(9월)</b><br>
+
+ - 대상 : 도슨트 양성교육 8강 이상 수강자<br>
+
+
+
+<b>3. 2차 도슨트 작품 해설 시연 : 하반기(9월)</b><br>
+
+ - 대상 : 양성교육 8강 이상 수강 및 글쓰기 과제 2개 제출자 중 시연시험을 희망하는 자 <br>
+
+
+
+<b>4. 최종발표 : 매년 12월경</b><br>
+
+ - 선발자를 대상으로 다음해 오리엔테이션 진행<br>
+
+
+
+<b>5. 주의사항</b><br>
+
+- 커리큘럼과 시험관련 내용은 첨부된 파일(서소문-도슨트 양성교육-커리큐럼.hwp) 참고<br>
+
+- 교육 주제 및 내용을 미술관, 강사 사정에 의해 다소 변경될 수 있음.<br>
+
+- 반드시 본인의 이름으로 신청하여야 함<br>
+
+- 신규 도슨트는 시험을 통해 10~15명 내외 선발 예정이며, 18년부터 격년제로 선발함<br>
+
+- 세부적인 시험 응시대상에 관한 규정은 매해 업데이트 되는 당해연도 도슨트 교육 공지사항을 확인하여야 함<br>
+
+- 유선신청, 현장접수, 청강 불가.<br>
+
+
+
+	<b>☞ 문의 : 추여명 큐레이터(02-2124-8924, 02-2124-8924, yeomyung@seoul.go.kr)</b><br>
+   		</div>
+   	</div>
+   	
+   </div>
+    
+    
+    
+    
+    <div id="modalB">
+   	<div class="modaltextbox">
+   		<div class="modalTitle">
+   			도슨트가 되는 방법
+   		</div>
+   		<div class="modalText">
+
+<b>1. 도슨트 양성교육 : 매년 하반기</b><br>
+
+   만 20세 이상 성인 대상으로 컴퓨터 추첨하여 선정하고 자원봉사의 이해, 미술사, 전시의 이해, 스피치법 등의 강의를 하반기에 운영
+
+ - 수료 : 총 9강 이상 수강자<br>
+
+
+
+<b>2. 1차 도슨트 필기시험 : 하반기</b><br>
+
+ - 대상 : 당해연도 도슨트 양성교육 수강생(수료자) 대상으로 1차 시험(과제평가)<br>
+
+
+
+<b>3. 2차 도슨트 작품해설 시연시험 : 하반기</b><br>
+
+ - 대상 : 1차 시험 합격자, 실기시험 통과<br>
+
+
+
+<b>4. 최종발표 : 매년 12월경</b><br>
+
+- 선발자를 대상으로 다음해 오리엔테이션 진행<br>
+
+
+
+<b>5. 주의사항</b><br>
+
+ - 커리큘럼과 시험관련 내용은 첨부된 파일(북서울-도슨트 양성교육-신청공지 및 커리큐럼.pdf) 참고<br>
+
+ - 교육 주제 및 내용을 미술관, 강사 사정에 의해 다소 변경될 수 있습니다.<br>
+
+ - 반드시 본인의 이름으로 신청하여야 함<br>
+
+ - 신규 도슨트는 시험을 통해 10-15명 내외 선발 예정<br>
+
+ - 유선신청, 현장접수, 청강 불가.<br>
+
+
+
+<b>☞ 문의 : 유한나 큐레이터(02-2124-5273)</b><br>
+   		</div>
+   	</div>
+   	
+   </div>
+    
+    
+     <!--로그인모달-->
+<div id="loginmodal">
+    <div id="loginbox">
+        <div id="loginA" class="loginbox">
+           <div id="login_blackbox"></div>
+            <div id="loginTitle">
+               <div id="logintext_top">서울시립미술관에<br>
+오신 것을<br>
+환영합니다.</div>
+                <p>Login</p>
+                <div id="loginunderbox"></div>
+            </div>
+        </div>
+        <div id="loginB" class="loginbox">
+           
+            <form action="" id="loginform">
+               <p class="logininfo">Log in to your account.</p>
+               <div id="loginboxunderbox"></div>
+                <input type="text" placeholder="ID" class="login id">
+                <input type="password" placeholder="password" class="login">
+                <div id="loginbtnbox">
+                    <div id="lookid"class="lookbtn">아이디 찾기</div>
+                    <div id="lookpw"class="lookbtn">비밀번호 찾기</div>
+                </div>
+                <button id="loginbtn">Login</button>
+                <div class="loginsnsbox">
+                    <i class="fab fa-facebook-f loginsns facebook"></i>
+                    <i class="fab fa-google loginsns google"></i>
+                    <i class="fab fa-instagram loginsns insta"></i>
+                </div>
+            </form>
+            
+            <div class="sign_logbox">
+                <div class="gologin" class="sign_log">Login</div>
+                <div class="gosign"class="sign_log">Sign Up</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="signbox">
+        <div id="signA" class="signbox">
+           <div id="sign_blackbox"></div>
+            <div id="signTitle">
+               <div id="signtext_top">서울시립미술관에<br>
+오신 것을<br>
+환영합니다.</div>
+                <p>Sign Up</p>
+                <div id="signunderbox"></div>
+            </div>
+        </div>
+        <div id="signB" class="signbox">
+           
+            <form action="" id="signform">
+               <p class="signinfo">Create account.</p>
+               <div id="signboxunderbox"></div>
+                <input type="text" placeholder="Name" class="sign name">
+                <input type="text" placeholder="Email" class="sign email">
+                <input type="password" placeholder="password" class="sign">
+            
+                <button id="signbtn">Sign Up</button>
+                
+                <div class="loginsnsbox">
+                    <i class="fab fa-facebook-f loginsns facebook"></i>
+                    <i class="fab fa-google loginsns google"></i>
+                    <i class="fab fa-instagram loginsns insta"></i>
+                </div>
+            </form>
+            
+            <div class="sign_logbox">
+                <div class="gologin" id="gologin">Login</div>
+                <div class="gosign" id="gosign">Sign Up</div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="loginclose"><p>Close</p><i class="fas fa-slash close"></i></div>
+    
+</div>
+
+<!--    문의하기 모달-->
+   <div id="contactModal">
+   	<div id="contactbox">
+   		<div id="contactTitle">
+   			<div>Contact</div>
+   			<i class="fas fa-slash contactclose"></i>
+   		</div>
+   		<div id="contactText">04515 서울 중구 덕수궁길 61<br>
+		<b>02-2124-8800</b></div>
+   	</div>
+   </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+.list:nth-child(2):before{width: 70%}
+.list:nth-child(2) .sublist:nth-child(3){background: black; color: white}
+
+
+#maincontainer{width: 100%;}
+#head{width: 100%; max-width: 1200px;margin: auto;padding-top: 130px;text-align: center;}
+#titleBox{display: flex; justify-content: space-between;width: 100%;align-items: baseline;}
+#mainTitle{font-size: 24px;font-weight: 700;background:black; padding: 0px 15px 2px 15px;
+    color:white;display: inline-block;letter-spacing: 5px;}
+#titlemap{font-weight: 300; font-size: 12px; letter-spacing: 3px;display: inline-block;}
+
+
+/*메인섹션*/
+
+#sectioncontain{width: 100%;padding: 40px 0;}
+#dosntBox{width: 100%; max-width: 1200px; margin: auto}
+#whatIsThis{font-size: 30px; font-weight: 700;}
+#dosntLine{width: 40px; height: 3px; background: black; margin: 30px 0}
+.dosntText{font-size: 18px; line-height: 35px; padding: 10px 50px}
+.dosntTextBox{border: 1px solid lightgray; padding: 30px 50px; margin: 20px 0}
+.mainimg{width: 100%;opacity: 0.8;transition: 0.2s; display: block;margin-bottom: 40px;}
+.mainimg:hover{opacity: 1}
+/*
+
+.dosntsubLine{width: 100px; height: 2px; background: black; margin: 50px 20px}
+*/
+
+.dosntB{font-size: 22px;line-height: 20px}
+.moreView{padding: 2px 30px; border-radius: 30px; border: 1px solid black; font-size: 16px; font-weight: 700; display: inline-block; margin-top: 40px;transition: 0.2s}	
+.moreView:hover{cursor: pointer;background: black; color: white;}
+
+/*앱박스*/
+#appBox{padding-top: 40px;display: flex; flex-wrap: wrap;justify-content: flex-start;padding-bottom: 50px}
+#appBox_L{width: 30%;position: relative;margin-right: 50px}
+#appimgBox{position: relative;overflow: hidden;width: 80%;height: 500px;margin: auto;border-radius: 10px;
+box-shadow: 1px 1px 5px rgba(0,0,0,0.2)}
+.appimg{width: 100%; position: absolute;top: 50%;transform: translateY(-50%);left: 0;display: none}
+#appBox_arrow{position: absolute;width: 100%;top: 50%; left: 50%; transform: translate(-50%,-50%);display: flex;justify-content: space-between;}
+.arrow{padding: 5px; font-size: 30px;transition: 0.2s}
+.arrow:hover{opacity: 0.6; cursor: pointer;}
+
+/*앱박스-오른쪽박스*/
+#appBox_R{width: 60%;display: flex;align-items: center;}
+#appBox_Rcontain{}
+#appTitle{font-size: 34px;font-weight: 700; display: flex; align-items: center; margin-bottom: 20px}
+.apptitlecon{font-size: 34px; margin-right: 20px;}
+#appText{font-size: 18px; line-height: 30px; padding-left: 20px;margin-bottom: 10px}
+
+#appBtnBox{padding: 20px 0;display: flex;justify-content: center;flex-wrap: wrap}
+.appBtn{padding: 0 20px; margin-bottom: 30px; text-align: center;display: flex;align-items: center;}
+.appicon{font-size: 50px;margin-right: 20px}
+.downloadbtn{padding: 5px 30px; border-radius: 30px; font-size: 18px;border: 1px solid black;transition: 0.2s}
+.download{margin-left: 10px; font-size: 20px}
+.downloadbtn:hover{cursor: pointer;background: black; color: white;}
+
+/*도슨트모달*/
+
+#modalA, #modalB{position: fixed;top: 0; left: 0;width: 100%; height: 100vh;background: rgba(0,0,0,0.5);
+display: none}
+
+.modaltextbox{width: 50%; height: 60%;position: absolute;top: 50%; left: 50%; transform: translate(-50%,-50%)}
+.modalTitle{width: 100%; background: black; color: white; padding: 10px 20px; font-size: 20px; font-weight: 500}
+.modalText{line-height: 30px; padding: 10px 20px; background: white;}
+.modalText b{margin: 10px 0;}

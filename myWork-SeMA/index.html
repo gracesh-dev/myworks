@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Grace.sh">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="image/favicon.ico">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="plugin/jquery.easing.1.3.js"></script>
+	<script src="js/main.js"></script>
+	<link rel="stylesheet" href="css/all_rwd.css">
+	<script src="js/navi.js"></script>
+	<script src="plugin/Scrollify-master/jquery.scrollify.js"></script>
+	<link rel="stylesheet" href="css/main_rwd.css">
+	<title> 서울시립미술관 </title>
+
+	<script>
+		$(function() {
+			$.scrollify({
+				section: ".example-classname",
+			});
+		});
+	</script>
+</head>
+
+
+
+<body onload="slide(0)" id="Demo">
+
+<!--프리로드-->
+
+	<div id="preload">
+		<div class="spinner">
+  <div class="cube1"></div>
+  <div class="cube2"></div>
+</div>
+	</div>
+
+
+	<!--   메인 네비-->
+
+	<i class="fas fa-bars" id="menubar"></i>
+	<div id="mainlogo_rwd"><img src="image/logo.svg" alt=""></div>
+
+
+	<nav id="navi">
+		<div id="navicontainer">
+			<div id="mainlogo">
+				<img src="image/logo.svg" alt="" link="index.html" id="goTomain">
+			</div>
+
+			<!--        메뉴바-->
+			<div id="menubox">
+				<ul id="menu">
+					<li class="list" link="about">About</li>
+					<li class="list" link="exhibition_1">Exhibition
+						<ul class="sub">
+							<li class="sublist" link="exhibition_1">현재전시</li>
+							<li class="sublist" link="exhibition_2">전시일정</li>
+							<li class="sublist" link="exhibition_3">도슨트 안내</li>
+						</ul>
+					</li>
+					<li class="list" link="education_1">Education
+						<ul class="sub">
+							<li class="sublist" link="education_1">현재교육</li>
+							<li class="sublist" link="education_2">교육일정</li>
+							<li class="sublist" link="education_3">문화행사</li>
+							<li class="sublist" link="education_4">교육자료실</li>
+						</ul>
+					</li>
+					<li class="list" link="semainfo_1">SeMA Info
+						<ul class="sub">  
+							<li class="sublist" link="semainfo_1">공지사항</li>
+							<li class="sublist" link="semainfo_2">보도자료</li>
+							<li class="sublist" link="semainfo_3">SeMA매거진</li>
+							<li class="sublist" link="semainfo_4">SeMA갤러리</li>
+							<li class="sublist" link="semainfo_5">자유게시판</li>
+						</ul>
+					</li>
+					<li class="list" link="usability_1">Usability
+						<ul class="sub">
+							<li class="sublist" link="usability_1">대관안내</li>
+							<li class="sublist" link="usability_2">접수</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div id="main_loginbox">
+				<p class="main_logintext" id="gologinmodal"><i class="fas fa-user-circle main_login"></i>로그인</p>
+				<p class="main_logintext" id="gocontactmodal"><i class="fas fa-question-circle main_login"></i>문의하기</p>
+			</div>
+
+		</div>
+	</nav>
+	<div id="whitebg"></div>
+
+	<!--    메인헤더-->
+	<header id="main_head" class="example-classname">
+
+		<div id="imgbox">
+
+			<img src="image/exbg.jpg" alt="" class="bgimg">
+			<img src="image/exbg1.jpg" alt="" class="bgimg">
+			<img src="image/exbg2.jpg" alt="" class="bgimg">
+
+			<div id="whitebgbox"></div>
+
+
+			<div id="leftsema">
+				<div id="whiteline"></div>
+				<img src="image/sema_main.png" alt="">
+			</div>
+			<div id="circlebox">
+				<div class="circle"></div>
+				<div class="circle"></div>
+				<div class="circle"></div>
+			</div>
+
+			<span id="imgnumber"></span>
+		</div>
+		<div id="main_textbox">
+			<div id="textbox">
+				<p id="main_text1" class="remove"><b>여럿이</b> 만드는 미래,<br>모두가 <b>연결된 미술관</b> </p>
+
+				<h1 id="title">Seoul <span>Museum</span><br>of Art</h1>
+			</div>
+
+			<div id="textbox2">
+				<div class="box2text mainT1">서울시립미술관은</div><br>
+				<div class="box2text mainT2">언제나 여러분과 함께합니다.</div>
+				<p id="box2text2">‘여럿이 만드는 미래, 모두가 연결된 미술관’을<br>
+					지향하며 세계적인 미술관으로 도약하고 있습니다.</p>
+			</div>
+		</div>
+	</header>
+
+
+
+	<!--    섹션-->
+	<div id="sectioncontainer" class="content">
+		<div id="seclinebox">
+			<div class="linebox linebox1"></div>
+			<div class="linebox linebox2"></div>
+		</div>
+
+		<div id="sectioning">
+			<div class="ingbtnbox">
+				<div class="ingbtn"></div>
+			</div>
+			<div class="ingbtnbox">
+				<div class="ingbtn"></div>
+			</div>
+			<div class="ingbtnbox">
+				<div class="ingbtn"></div>
+			</div>
+			<div class="ingbtnbox">
+				<div class="ingbtn"></div>
+			</div>
+		</div>
+
+		<!--섹션1--------------->
+		<section id="secA" class="example-classname">
+			<div id="secA_a" class="secA">
+				<div id="sectionAtextbox">
+					<div id="textA">여럿이 만드는 미래, 모두가 연결된 미술관</div>
+					<h1 id="secAtitle">서울시립<br>미술관</h1>
+					<div id="textAbox">
+						<div class="textAbox A1">
+							<p class="textA">서울시립미술관은</p>
+						</div><br>
+						<div class="textAbox A2">
+							<p class="textA">언제나 여러분과 함께합니다.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="secA_b" class="secA">
+				<div id="secAimg">
+					<img src="image/sec2img.jpg" alt="" id="imgA">
+				</div>
+
+			</div>
+		</section>
+
+
+		<!--섹션2-------------->
+
+		<div id="secBcontainer" class="example-classname">
+			<div id="imgBbox"><img src="image/sec3img.jpg" alt=""></div>
+			<div id="pinkbg"></div>
+			<section id="secB">
+				<div id="secB_a" class="secB"></div>
+				<div id="secB_b" class="secB">
+					<div id="textBbox">
+						<div id="titleB">서울시립미술관은<br>
+							<span>‘여럿이 만드는 미래,<br>
+								모두가 연결된 미술관’</span>을 지향하며<br>
+							세계적인 미술관으로 도약하고 있습니다.</div>
+						<div id="textB">아시아의 중심도시인 대한민국 수도 서울의<br>
+							대표 미술관으로서 세계성과 지역성, 전문성과 대중성을<br>
+							아우르는 다양한 기획전과 특별전을 개최하고,<br>
+							맞춤형 교육 및 국제교류 프로그램 등을 운영합니다.</div>
+					</div>
+				</div>
+
+			</section>
+		</div>
+
+		<!--섹션3_보도자료_공지사항-------------->
+
+		<section id="secC" class="example-classname">
+			<div id="secC_a" class="secC">
+				<div class="titlebox">
+					<p class="sectitle">공지사항<i class="fas fa-plus plus" link="semainfo_1.html"></i></p>
+				</div>
+				<div class="textCbox">
+					<div class="textC" link="semainfo_1.html">서울시립미술관 전시 사전 예약 안내</div><br>
+					<div class="textC" link="semainfo_1.html">제1차 서울시립미술관 소장작품 구입 공고</div><br>
+					<div class="textC" link="semainfo_1.html">서울시립미술관 신진미술인 전시지원 프로그램</div><br>
+					<div class="textC" link="semainfo_1.html">제1차 서울시립미술관 소장작품 구입 공고</div><br>
+					<div class="textC" link="semainfo_1.html">시민큐레이터 양성교육 수강생 선발 명단 발표</div><br>
+					<div class="textC" link="semainfo_1.html">
+						서울시 재난(코로나19) 긴급생활비 지원 신청 안내</div><br>
+				</div>
+			</div>
+
+			<div id="secC_b" class="secC">
+				<div class="titlebox">
+					<p class="sectitle">보도자료<i class="fas fa-plus plus" link="semainfo_2.html"></i></p>
+				</div>
+				<div class="textCbox">
+					<div class="textC" link="semainfo_2.html">신진미술인 전시지원 프로그램 보도자료</div><br>
+					<div class="textC" link="semainfo_2.html">북서울미술관 &#60;물체주머니&#62; 보도자료</div><br>
+					<div class="textC" link="semainfo_2.html">서소문본관 &#60;모두의 소장품&#62; 보도자료</div><br>
+					<div class="textC" link="semainfo_2.html">2020 서울시립미술관 재개관</div><br>
+					<div class="textC" link="semainfo_2.html">남서울미술관 &#60;모두의 건축소장품&#62; 보도자료</div><br>
+					<div class="textC" link="semainfo_2.html">2020 서울시립미술관 프로그램 발표 보도자료</div><br>
+
+				</div>
+			</div>
+
+
+		</section>
+
+		<!--섹션4_오시는길-------------->
+
+		<div id="secDcontainer" class="example-classname">
+			<section id="secD">
+				<div id="titlebox">
+					<p class="sectitle">오시는길</p>
+				</div>
+				<div id="adressbox">
+
+					<div id="boxD_a" class="boxD">
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">서소문본관</p>
+								<div class="museumadress">서울 중구 덕수궁길 61<br>(서소문동)<br>02-2124-8800(ARS)</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">북서울미술관</p>
+								<div class="museumadress">서울 노원구 동일로 1238<br>(중계동)<br>02-2124-5248~9</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">SeMA창고</p>
+								<div class="museumadress">서울 은평구 통일로 684<br>(서울혁신파크 5동)<br>02-2124-8935</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">백남준기념관</p>
+								<div class="museumadress">서울 종로구 종로53길 12-1<br>(창신동)<br>02-2124-8908</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+
+					<div id="boxD_b" class="boxD">
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">남서울미술관</p>
+								<div class="museumadress">서울 관악구 남부순환로 2076<br>(남현동)<br>02-598-6246~7</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">난지미술창작스튜디오</p>
+								<div class="museumadress">서울 마포구 하늘공원로 108-1<br>(상암동)<br>02-308-1071</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="museumbox">
+							<div class="museum">
+								<p class="museumname">SeMA벙커</p>
+								<div class="museumadress">서울 영등포구 여의대로 지하 76<br>(여의도동)<br>02-2124-8946</div>
+								<div class="museumbtnbox">
+									<div class="museumbtn1">주차 &#183; 교통 관련 정보</div>
+								</div>
+							</div>
+						</div>
+						<div class="museumbox"></div>
+
+					</div>
+
+
+				</div>
+				<div id="secDbtn">
+					<button id="mapbtn">
+						지도로보기
+					</button></div>
+
+
+
+
+			</section>
+
+			<!--        푸터--------->
+			<footer id="foot">
+				<div id="footcontain">
+					<div id="footerlogo"><a href="https://www.seoul.go.kr" target="_blank"><img src="image/seoullogo.png" alt="" onclick="h"></a>
+						<p>©2018 Seoul Museum of Art All rights reserved</p>
+					</div>
+					<div id="snsbox">
+						<a href="https://www.facebook.com/SeoulMuseumofArt.kr" target="_blank"><i class="fab fa-facebook-f sns"></i></a>
+						<a href="https://www.instagram.com/seoulmuseumofart/" target="_blank"><i class="fab fa-instagram sns"></i></a>
+						<a href="https://twitter.com/SeoulSema" target="_blank"><i class="fab fa-twitter sns"></i></a>
+						<a href="https://www.youtube.com/user/SeoulMuseumofArt" target="_blank"><i class="fab fa-youtube sns"></i></a>
+					</div>
+				</div>
+
+			</footer>
+		</div>
+
+	</div>
+
+
+	<div id="mapmodal">
+		<i class="fas fa-times mapclose"></i>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.619642290482!2d126.971619315154!3d37.56402417864223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca28c91116607%3A0x58c37109fc6244f5!2z7ISc7Jq47Iuc66a966-47Iig6rSAIOyEnOyGjOusuCDrs4TqtIA!5e0!3m2!1sko!2skr!4v1592536942093!5m2!1sko!2skr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapimg"></iframe>
+		<!--                 width="600" height="450" -->
+
+	</div>
+
+
+	<div id="upto"><i class="fas fa-chevron-up up"></i></div>
+
+	<div id="modalbtn" class="modalbtnbefore modalbtnon"></div>
+
+	<!--현재전시중 모달-->
+	<div id="modal">
+		<div id="modaling"></div>
+		<div id="modalbox">
+			<ul id="modaltext">
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">같이 있고 싶다고</div>
+					<span class="modaldate">20.01.01 - 20.12.31</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">영원한 나르시시스트,천경자</div><span class="modaldate">상설전시</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">유휴공간 프로젝트 &#60;인간, 사랑, 빛&#62;</div>
+					<span class="modaldate">19.12.10 - 20.08.31</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">물체주머니</div>
+					<span class="modaldate">20.03.26 - 20.09.13</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">모두의 건축 소장품</div>
+					<span class="modaldate">20.04.16 - 20.06.14</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">내일, 세상은 아름다울 것이다</div><span class="modaldate">상설전시</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">미술관이 된 구벨기에영사관</div><span class="modaldate">상설전시</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">SeMA 컬렉션 라운지 1호</div><span class="modaldate">상설전시</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">SeMA 컬렉션 라운지 2호</div><span class="modaldate">상설전시</span>
+				</li><br>
+
+				<li class="modalinnertext" link="exhibition_1.html">
+					<div class="innerTitle">야외조각전시 - 서소문본관</div><span class="modaldate">상설전시</span>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+
+	<!--현재페이지 버튼-->
+
+	<div id="main_pagebtn">
+		<!--    <div class="pagebtncover"><div id="pagebtn_home" class="pagebtn" link="#main_head"></div></div>-->
+		<div class="pagebtncover">
+			<div class="pagebtn" link="#secA"></div>
+		</div>
+		<div class="pagebtncover">
+			<div class="pagebtn" link="#secB"></div>
+		</div>
+		<div class="pagebtncover">
+			<div class="pagebtn" link="#secC"></div>
+		</div>
+		<div class="pagebtncover">
+			<div class="pagebtn" link="#secD"></div>
+		</div>
+	</div>
+
+
+	<!--섹션D 교통안내 버튼 모달-->
+	<div class="secDmodal_A">
+		<div id="innermodalD">
+			<i class="fas fa-times parkingclose"></i>
+			<div class="parking">
+				<div class="tablename">지하철 교통안내</div>
+				<p class="tablelist">7호선 하계역 1번 출구 도보 5분 거리에 등나무공원 내.</p>
+				<p class="tablelist">7호선 중계역 3번 출구 도보 5분 거리에 등나무공원 내.</p>
+
+				<div class="tablename">버스 교통안내</div>
+				<p class="tablelist">파랑(간선)버스 : 100, 105, 146 (정류장 : 서울시립 북서울미술관)</p>
+				<p class="tablelist">초록(지선)버스 : 1131, 1135, 1137, 1140 (정류장 : 서울시립 북서울미술관)</p>
+				<p class="tablelist">노랑(순환)버스 : 15번 (정류장:서울시립 북서울미술관)</p>
+
+				<div class="tablename">주차 안내</div>
+				<p class="tablelist">주차요금 : 5분당 250원</p>
+				<p class="tablelist">운영시간 : 09:00~22:00
+				</p>
+				<p class="tablelist">동절기(12월~2월) 및 토·일·공휴일 : 09:00~21:00</p>
+				<p class="tablelist">할인<br>
+					<p class="tablelist" id="subtablelist">
+						- 장애인, 국가유공자, 고엽제후유증환자 차량 : 80% 할인<br>
+						- 경형자동차, 저공해자동차 : 50% 할인<br>
+						- 성실납세증 부착 차량 : 발행일로부터 1년간 면제<br>
+						- 민주유공자 차량 : 1시간 면제, 초과이후 50% 할인<br>
+						- 다둥이 행복카드 소지자 : 2자녀 30%, 3자녀 50% 할인<br>
+					</p>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!--로그인모달-->
+	<div id="loginmodal">
+		<div id="loginbox">
+			<div id="loginA" class="loginbox">
+				<div id="login_blackbox"></div>
+				<div id="loginTitle">
+					<div id="logintext_top">서울시립미술관에<br>
+						오신 것을<br>
+						환영합니다.</div>
+					<p>Login</p>
+					<div id="loginunderbox"></div>
+				</div>
+			</div>
+			<div id="loginB" class="loginbox">
+
+				<form action="" id="loginform">
+					<p class="logininfo">Log in to your account.</p>
+					<div id="loginboxunderbox"></div>
+					<input type="text" placeholder="ID" class="login id">
+					<input type="password" placeholder="password" class="login">
+					<div id="loginbtnbox">
+						<div id="lookid" class="lookbtn">아이디 찾기</div>
+						<div id="lookpw" class="lookbtn">비밀번호 찾기</div>
+					</div>
+					<button id="loginbtn">Login</button>
+					<div class="loginsnsbox">
+						<i class="fab fa-facebook-f loginsns facebook"></i>
+						<i class="fab fa-google loginsns google"></i>
+						<i class="fab fa-instagram loginsns insta"></i>
+					</div>
+				</form>
+
+				<div class="sign_logbox">
+					<div class="gologin" class="sign_log">Login</div>
+					<div class="gosign" class="sign_log">Sign Up</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="signbox">
+			<div id="signA" class="signbox">
+				<div id="sign_blackbox"></div>
+				<div id="signTitle">
+					<div id="signtext_top">서울시립미술관에<br>
+						오신 것을<br>
+						환영합니다.</div>
+					<p>Sign Up</p>
+					<div id="signunderbox"></div>
+				</div>
+			</div>
+			<div id="signB" class="signbox">
+
+				<form action="" id="signform">
+					<p class="signinfo">Create account.</p>
+					<div id="signboxunderbox"></div>
+					<input type="text" placeholder="Name" class="sign name">
+					<input type="text" placeholder="Email" class="sign email">
+					<input type="password" placeholder="password" class="sign">
+
+					<button id="signbtn">Sign Up</button>
+
+					<div class="loginsnsbox">
+						<i class="fab fa-facebook-f loginsns facebook"></i>
+						<i class="fab fa-google loginsns google"></i>
+						<i class="fab fa-instagram loginsns insta"></i>
+					</div>
+				</form>
+
+				<div class="sign_logbox">
+					<div class="gologin" id="gologin">Login</div>
+					<div class="gosign" id="gosign">Sign Up</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<div id="loginclose">
+			<p>Close</p><i class="fas fa-slash close"></i>
+		</div>
+
+	</div>
+
+
+	<!--    문의하기 모달-->
+	<div id="contactModal">
+		<div id="contactbox">
+			<div id="contactTitle">
+				<div>Contact</div>
+				<i class="fas fa-slash contactclose"></i>
+			</div>
+			<div id="contactText">04515 서울 중구 덕수궁길 61<br>
+				<b>02-2124-8800</b></div>
+		</div>
+	</div>
+
+</body>
+
+</html>

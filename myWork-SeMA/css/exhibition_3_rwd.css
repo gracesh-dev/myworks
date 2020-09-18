@@ -1,0 +1,205 @@
+@media screen and (max-width:900px) {
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+
+	/*메인섹션*/
+
+	#sectioncontain {
+		width: 90%;
+		margin: auto
+	}
+
+	#dosntBox {
+		width: 100%;
+		margin: auto
+	}
+
+	#dosntLine {
+		margin: 20px 0
+	}
+
+	.dosntText {
+		font-size: 16px;
+		padding: 10px 30px;
+	}
+
+	.moreView {
+		margin-top: 20px;
+	}
+
+	/*앱박스*/
+	#appBox_L {
+		width: 50%
+	}
+
+	.arrow {
+		font-size: 40px;
+	}
+
+	/*앱박스-오른쪽박스*/
+	#appBox_R {
+		width: 40%;
+	}
+
+	#appBox_Rcontain {
+		width: 100%
+	}
+
+	#appTitle {
+		font-size: 24px;
+	}
+
+	.apptitlecon {
+		font-size: 30px;
+		margin-right: 10px;
+	}
+
+	#appText {
+		font-size: 16px
+	}
+
+
+	.appBtn {
+		margin-bottom: 30px;
+	}
+
+	.appBtn:last-child {
+		margin-bottom: 0
+	}
+
+	.appicon {
+		font-size: 40px;
+		margin-right: 10px
+	}
+
+	.downloadbtn {
+		padding: 5px 20px;
+	}
+
+	.download {
+		margin-left: 5px;
+		font-size: 16px
+	}
+
+	/*도슨트모달*/
+
+	.modaltextbox {
+		width: 70%;
+		height: 70%;
+	}
+}
+
+
+@media screen and (max-width:500px) {
+
+	#head {
+		padding-top: 110px;
+	}
+
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+
+	#mainTitle {
+		font-size: 18px;
+	}
+
+	#sectioncontain {
+		width: 90%;
+		margin: auto
+	}
+
+	/*메인섹션*/
+
+	#dosntLine {
+		margin: 15px 0
+	}
+
+	.dosntB {
+		font-size: 18px;
+	}
+
+	.dosntText {
+		font-size: 16px;
+		padding: 20px 10px;
+	}
+
+	#whatIsThis {
+		font-size: 22px;
+	}
+
+	.dosntText {
+		font-size: 14px;
+		line-height: 30px
+	}
+
+
+	/*앱박스*/
+	#appBox {
+		padding-bottom: 0px
+	}
+
+	#appBox_L {
+		width: 90%;
+		margin: auto
+	}
+
+	.arrow {
+		font-size: 30px;
+	}
+
+	/*앱박스-오른쪽박스*/
+	#appBox_R {
+		width: 80%;
+		margin: 40px auto 0 auto;
+		text-align: center
+	}
+
+
+	#appTitle {
+		justify-content: center;
+	}
+
+	.appBtn {
+		margin-bottom: 20px;
+	}
+
+
+
+	.downloadbtn {
+		font-size: 16px
+	}
+
+	.download {
+		font-size: 14px
+	}
+
+	/*도슨트모달*/
+
+	.modaltextbox {
+		width: 90%;
+		height: 70%;
+	}
+
+	.modalTitle {
+		padding: 5px 20px;
+		font-size: 18px;
+	}
+
+	.modalText {
+		line-height: 20px;
+		font-size: 12px
+	}
+
+	#appText {
+		font-size: 16px;
+		line-height: 28px;
+		padding-left: 0;
+	}
+
+}

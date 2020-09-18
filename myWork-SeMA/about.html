@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Grace.sh">
+<link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/all_rwd.css">
+    <link rel="stylesheet" href="css/about_rwd.css">
+    <script src="js/about.js"></script>
+    <script src="js/navi.js"></script>
+	<title> 서울시립미술관 </title>
+</head>
+
+	<body onload="slide(0)">
+	
+	<!--   메인 네비-->
+    
+    <i class="fas fa-bars" id="menubar"></i>   
+    <div id="mainlogo_rwd"><img src="image/logo.svg" alt=""></div>
+    
+    
+    <nav id="navi">
+       <div id="navicontainer">
+        <div id="mainlogo">
+				<img src="image/logo.svg" alt="" link="index.html" id="goTomain">
+			</div>
+        
+         <!--        메뉴바-->
+        <div id="menubox">
+            <ul id="menu">
+                <li class="list" link="about">About</li>
+                <li class="list" link="exhibition_1">Exhibition
+                <ul class="sub">
+                    <li class="sublist" link="exhibition_1">현재전시</li>
+                    <li class="sublist" link="exhibition_2">전시일정</li>
+                    <li class="sublist" link="exhibition_3">도슨트 안내</li>
+                </ul></li>
+                <li class="list" link="education_1">Education
+                <ul class="sub">
+                    <li class="sublist" link="education_1">현재교육</li>
+                    <li class="sublist" link="education_2">교육일정</li>
+                    <li class="sublist" link="education_3">문화행사</li>
+                    <li class="sublist" link="education_4">교육자료실</li>
+                    </ul></li>
+                <li class="list" link="semainfo_1">SeMA Info 
+                <ul class="sub">
+                    <li class="sublist" link="semainfo_1">공지사항</li>
+                    <li class="sublist" link="semainfo_2">보도자료</li>
+                    <li class="sublist" link="semainfo_3">SeMA매거진</li>
+                    <li class="sublist" link="semainfo_4">SeMA갤러리</li>
+                    <li class="sublist" link="semainfo_5">자유게시판</li>
+                    </ul></li>
+                <li class="list" link="usability_1">Usability
+                <ul class="sub">
+                    <li class="sublist" link="usability_1">대관안내</li>
+                    <li class="sublist" link="usability_2">접수</li>
+                    </ul></li>
+            </ul>
+           </div>
+           
+           <div id="main_loginbox">
+        <p class="main_logintext" id="gologinmodal"><i class="fas fa-user-circle main_login" ></i>로그인</p>
+        <p class="main_logintext" id="gocontactmodal"><i class="fas fa-question-circle main_login"></i>문의하기</p></div>
+        
+        </div>
+    </nav><div id="whitebg"></div>
+    
+    
+    
+<!--    메인화면(영상배경)-->
+    <div id="maincontainer">
+        <div id="bg_pattern"></div>
+        
+        <div id="numberbox"><div id="numbering"></div></div>
+        
+        <div class="whitelinebox"></div>
+        <div class="whitelinebox2"></div>
+        <div class="whitelinebox3"></div>
+        <div class="whitelinebox4"></div>
+        <div class="whitelinebox5"></div>
+       
+            <div id="main_head">
+            <div class="mainbox">
+              
+               <div class="videobox">
+
+               <video autoplay loop muted class="video">
+               	<source src="video/sema1.mp4" type="video/mp4">
+               </video>
+                </div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle">서소문본관</div>
+                <div class="viewmorebox" link="about_1">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                
+                </div>
+            </div>
+            
+            <div class="mainbox">
+               <div class="videobox">
+               
+                <video autoplay loop muted class="video">
+               	<source src="video/sema2.mp4" type="video/mp4">
+               </video></div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle">북서울미술관</div>
+                <div class="viewmorebox" link="about_2">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                </div>
+            </div>
+            
+            <div class="mainbox">
+               <div class="videobox">
+                <video autoplay loop muted class="video">
+               	<source src="video/sema3.mp4" type="video/mp4">
+               </video></div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle">남서울미술관</div>
+                <div class="viewmorebox" link="about_1">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                </div>
+            </div>
+            
+            <div class="mainbox">
+               <div class="videobox">
+                <video autoplay loop muted class="video">
+               	<source src="video/sema4.mp4" type="video/mp4">
+               </video></div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle" id="museumTitle">난지미술창작스튜디오</div>
+                <div class="viewmorebox" link="about_1">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                </div>
+            </div>
+            
+            <div class="mainbox">
+               <div class="videobox">
+                <video autoplay loop muted class="video">
+               	<source src="video/sema5.mp4" type="video/mp4">
+               </video></div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle">SeMA 창고</div>
+                <div class="viewmorebox" link="about_1">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                </div>
+            </div>
+            
+            <div class="mainbox">
+               <div class="videobox">
+                <video autoplay loop muted class="video">
+               	<source src="video/sema6.mp4" type="video/mp4">
+               </video></div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle">백남준기념관</div>
+                <div class="viewmorebox" link="about_1">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                </div>
+            </div>
+            
+            <div class="mainbox">
+               <div class="videobox">
+                <video autoplay loop muted class="video">
+               	<source src="video/sema7.mp4" type="video/mp4">
+               </video></div>
+                
+                <div class="museumtextbox">
+                <p class="museumsub">서울시립미술관</p>
+                <div class="museumTitle">SeMA 벙커</div>
+                <div class="viewmorebox" link="about_1">
+                <div class="viewmorebtn">View More<br>View More</div>
+                </div>
+                
+                </div>
+            </div>
+            
+            
+            <div id="arrowbox">
+                <div class="arrow" id="left"><div class="whitebtn"></div></div>
+                <div class="arrow" id="right"><div class="whitebtn"></div></div>
+            </div>
+            
+            <div id="snsbox">
+                <a href="https://www.facebook.com/SeoulMuseumofArt.kr" target="_blank"><i class="fab fa-facebook-f sns"></i></a>
+                <a href="https://www.instagram.com/seoulmuseumofart/" target="_blank"><i class="fab fa-instagram sns"></i></a>
+                <a href="https://twitter.com/SeoulSema" target="_blank"><i class="fab fa-twitter sns"></i></a>
+                <a href="https://www.youtube.com/user/SeoulMuseumofArt" target="_blank"><i class="fab fa-youtube sns"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+  
+<!--로그인모달-->
+<div id="loginmodal">
+    <div id="loginbox">
+        <div id="loginA" class="loginbox">
+           <div id="login_blackbox"></div>
+            <div id="loginTitle">
+               <div id="logintext_top">서울시립미술관에<br>
+오신 것을<br>
+환영합니다.</div>
+                <p>Login</p>
+                <div id="loginunderbox"></div>
+            </div>
+        </div>
+        <div id="loginB" class="loginbox">
+           
+            <form action="" id="loginform">
+               <p class="logininfo">Log in to your account.</p>
+               <div id="loginboxunderbox"></div>
+                <input type="text" placeholder="ID" class="login id">
+                <input type="password" placeholder="password" class="login">
+                <div id="loginbtnbox">
+                    <div id="lookid"class="lookbtn">아이디 찾기</div>
+                    <div id="lookpw"class="lookbtn">비밀번호 찾기</div>
+                </div>
+                <button id="loginbtn">Login</button>
+                <div class="loginsnsbox">
+                    <i class="fab fa-facebook-f loginsns facebook"></i>
+                    <i class="fab fa-google loginsns google"></i>
+                    <i class="fab fa-instagram loginsns insta"></i>
+                </div>
+            </form>
+            
+            <div class="sign_logbox">
+                <div class="gologin" class="sign_log">Login</div>
+                <div class="gosign"class="sign_log">Sign Up</div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="signbox">
+        <div id="signA" class="signbox">
+           <div id="sign_blackbox"></div>
+            <div id="signTitle">
+               <div id="signtext_top">서울시립미술관에<br>
+오신 것을<br>
+환영합니다.</div>
+                <p>Sign Up</p>
+                <div id="signunderbox"></div>
+            </div>
+        </div>
+        <div id="signB" class="signbox">
+           
+            <form action="" id="signform">
+               <p class="signinfo">Create account.</p>
+               <div id="signboxunderbox"></div>
+                <input type="text" placeholder="Name" class="sign name">
+                <input type="text" placeholder="Email" class="sign email">
+                <input type="password" placeholder="password" class="sign">
+            
+                <button id="signbtn">Sign Up</button>
+                
+                <div class="loginsnsbox">
+                    <i class="fab fa-facebook-f loginsns facebook"></i>
+                    <i class="fab fa-google loginsns google"></i>
+                    <i class="fab fa-instagram loginsns insta"></i>
+                </div>
+            </form>
+            
+            <div class="sign_logbox">
+                <div class="gologin" id="gologin">Login</div>
+                <div class="gosign" id="gosign">Sign Up</div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="loginclose"><p>Close</p><i class="fas fa-slash close"></i></div>
+</div>  
+
+
+
+<!--    문의하기 모달-->
+   <div id="contactModal">
+   	<div id="contactbox">
+   		<div id="contactTitle">
+   			<div>Contact</div>
+   			<i class="fas fa-slash contactclose"></i>
+   		</div>
+   		<div id="contactText">04515 서울 중구 덕수궁길 61<br>
+		<b>02-2124-8800</b></div>
+   	</div>
+   </div>
+</body>
+</html>
