@@ -1,0 +1,33 @@
+.list:last-child:before{width: 70%}
+.list:last-child .sublist:nth-child(1){background: black; color: white}
+
+#mainconatainer{
+    width: 100%;
+}
+
+#head{width: 100%; max-width: 1200px;margin: auto;padding-top: 150px;text-align: center;}
+#titleBox{display: flex; justify-content: space-between;width: 100%;align-items: baseline;}
+#mainTitle{font-size: 24px;font-weight: 700;background:black; padding: 0px 15px 2px 15px;
+    color:white;display: inline-block;letter-spacing: 5px;}
+#titlemap{font-weight: 300; font-size: 12px; letter-spacing: 3px;display: inline-block;}
+
+
+/*메인*/
+#main_container{width: 100%; padding-top: 50px;}
+#main_howtobox{width: 100%; text-align: left;padding: 0 30px}
+.howto_title{border-bottom: 3px solid black; font-size: 18px; font-weight: 700; display: inline-block; margin-bottom: 15px}
+.howto_text{line-height: 30px;margin-bottom: 40px}
+
+#main_infobox{text-align: left;width: 100%; padding: 20px 50px}
+#info_title{background: black; color: white; font-size: 18px; font-weight: 700; display: inline-block;margin-bottom: 20px; padding: 5px 10px}
+
+.info_box{width: 100%; padding: 20px; display: flex; justify-content: space-between;align-items: center;border: 1px solid lightgray; margin-bottom: 30px;flex-wrap: wrap}
+.info_imgbox{width: 40%;}
+.infoImg{width: 100%}
+.info_textbox{width: 50%; line-height: 35px; font-size: 18px}
+.gotolink{text-decoration: underline;color: black}
+.gotolink:hover{cursor: pointer; opacity: 0.6}
+.placename{font-weight: 500;}
+
+#gotonextpage{padding: 3px 15px; background: black; color: white; font-size: 24px; font-weight: 700; display: inline-block; margin-bottom: 50px; letter-spacing: 3px;}
+#gotonextpage:hover{cursor: pointer; opacity: 0.6}

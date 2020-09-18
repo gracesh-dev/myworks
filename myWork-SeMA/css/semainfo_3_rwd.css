@@ -1,0 +1,44 @@
+@media screen and (max-width:900px) {
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+	/*메인섹션*/
+
+
+	.main_imbBox {
+		width: 48%;
+	}
+
+}
+
+
+@media screen and (max-width:500px) {
+
+	#head {
+		padding-top: 110px;
+	}
+
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+
+	#mainTitle {
+		font-size: 18px;
+	}
+
+	#sectioncontain {
+		width: 90%;
+		margin: auto
+	}
+
+	/*메인섹션*/
+
+	.main_imbBox {
+		width: 100%;
+	}
+	
+}

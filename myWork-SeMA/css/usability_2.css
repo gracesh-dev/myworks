@@ -1,0 +1,58 @@
+.list:last-child:before{width: 70%}
+.list:last-child .sublist:last-child{background: black; color: white}
+
+#mainconatainer{
+    width: 100%;
+}
+
+#head{width: 100%; max-width: 1200px;margin: auto;padding-top: 150px;text-align: center;position: relative;}
+#titleBox{display: flex; justify-content: space-between;width: 100%;align-items: baseline;}
+#mainTitle{font-size: 24px;font-weight: 700;background:black; padding: 0px 15px 2px 15px;
+    color:white;display: inline-block;letter-spacing: 5px;}
+#titlemap{font-weight: 300; font-size: 12px; letter-spacing: 3px;display: inline-block;}
+
+/*메인*/
+
+#main_infoText{font-size: 24px; font-weight: 700; margin: 40px 0;text-align: center; background: black; color: white;display: inline-block;padding: 3px 50px}
+/*로그인----*/
+
+#main_login_page{width: 100%; padding: 20px 0 50px 0 ; display: flex;}
+#main_loginboxA{width: 100%;text-align: center}
+#main_loginTitle{ font-size: 50px;font-weight: 700;margin: 0;}
+#main_loginform{width: 40%;margin: 30px auto}
+.main_logininput{width: 100%; padding: 10px; outline: none;box-shadow: none; border: none; border-bottom: 2px solid black;font-size: 18px;margin-bottom: 10px}
+::placeholder{font-size: 18px; color: lightgray; font-weight: 500;margin: 0;padding: 0;}
+#main_loginbtnbox{width: 100%;display: flex;justify-content:flex-end;}
+.main_id{margin-bottom: 30px}
+
+.main_lookbtn{padding: 5px 10px;font-weight: 400;position: relative;cursor: pointer;color: gray; font-size: 14px}
+.main_lookbtn:before{content: "";width: 0;transition: 0.2s; height: 1px; background: black;position: absolute;left: 50%; top: 90%;transform: translateX(-50%)}
+.main_lookbtn:hover:before{width: 80%}
+#main_loginbtn{width: 50%; padding: 10px 30px; text-align: center; background: black; border-radius: 30px; color: white; font-size: 20px; border: none; outline: none; margin: 20px auto 0 auto;transition: 0.2s;display: block}
+#main_loginbtn:hover{cursor: pointer; opacity: 0.7}
+
+.main_sign_logbox{font-size: 14px; font-weight: 700; cursor: pointer;position: absolute;right: 0; top: 28%;
+border: 2px solid black; display: flex;border-radius: 30px;overflow: hidden}
+.main_loginsnsbox{display: flex;margin-top: 20px;width: 100%;justify-content: center}
+
+.main_gologin{padding: 10px 10px 10px 20px;position: relative;background: black; color: white;}
+.main_gosign{padding: 10px 20px 10px 10px;}
+
+
+/*사인모달*/
+
+#main_signbox{width: 100%;text-align: center;display: none}
+#main_signTitle{font-size: 50px;font-weight: 700;margin: 0;}
+#main_signform{width: 40%;margin: 30px auto}
+.main_sign{width: 100%; padding: 10px; outline: none;box-shadow: none; border: none; border-bottom: 2px solid black;font-size: 18px;margin-bottom: 10px}
+::placeholder{font-size: 18px; color: lightgray; font-weight: 500;margin: 0;padding: 0;}
+#main_signbtnbox{width: 100%;display: flex;justify-content:flex-end;}
+.main_name, .main_email{margin-bottom: 50px}
+
+#main_signbtn{width: 50%; padding: 10px 30px; text-align: center; background: black; border-radius: 30px; color: white; font-size: 20px; border: none; outline: none; margin: 30px auto 0 auto;transition: 0.2s;display: block}
+#main_signbtn:hover{cursor: pointer; opacity: 0.7}
+
+.main_gologin{padding: 10px 10px 10px 20px;position: relative;background: black; color: white;}
+.main_gosign{padding: 10px 20px 10px 10px;}
+#main_gologin{background: white; color: black;}
+#main_gosign{background: black; color: white;}

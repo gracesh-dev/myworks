@@ -1,0 +1,61 @@
+@media screen and (max-width:900px) {
+
+
+	/* 메인 */
+
+	#head {
+		width: 90%;
+		padding-top: 120px;
+	}
+
+	#boxA {
+		margin-top: 50px;
+	}
+
+	.boxA {
+		width: 48.5%;
+		margin-bottom: 30px;
+		height: 300px;
+	}
+
+	.imgbox {
+		height: 100%;
+		width:auto;
+	}
+
+	.imgA {
+		height: 100%;
+	}
+
+	.exhib_name {
+		font-size: 18px;
+	}
+
+	#morebtn {
+		margin-bottom: 20px;
+	}
+}
+
+
+
+@media screen and (max-width:500px) {
+	#head {
+		padding-top: 110px;
+	}
+
+#mainTitle{font-size: 18px;}
+	#titlemap {
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+	/* 메인 */
+
+	#boxA {
+		margin-top: 40px;
+	}
+
+	.boxA {
+		width: 100%;
+	}
+
+}
